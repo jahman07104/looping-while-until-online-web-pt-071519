@@ -1,10 +1,9 @@
 def using_until
   #your code here
-  levitation_force = 10
-   counter = 1
-until counter == 10
+  levitation_force = 6
+until levitation_force == 10
   puts 'Wingardium Leviosa'
-  counter += 1
+  levitation_force += 1
 end
   
 end
